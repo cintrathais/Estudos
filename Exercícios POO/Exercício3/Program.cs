@@ -14,3 +14,4 @@ using System.Globalization;
            
             Console.WriteLine("NOTA FINAL = "
                 + aluno.NotaFinal().ToString("F2", CultureInfo.InvariantCulture));
+            if (aluno.Aprovado()) {
